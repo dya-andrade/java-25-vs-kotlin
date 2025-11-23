@@ -315,7 +315,7 @@ Tudo de forma **didática**, direta e com profundidade profissional.
 
 ---
 
-# 🟦 1. **Java domina todo o ecossistema financeiro há 25 anos**
+## 🟦 1. **Java domina todo o ecossistema financeiro há 25 anos**
 
 Setores como:
 
@@ -349,7 +349,7 @@ Quando você precisa integrar com um banco ou sistema legado, **Java sempre func
 
 ---
 
-# 🟦 2. **Conformidade legal, risco operacional e auditoria exigem robustez**
+## 🟦 2. **Conformidade legal, risco operacional e auditoria exigem robustez**
 
 Pagamentos e fintechs trabalham com:
 
@@ -380,7 +380,7 @@ E bancos não arriscam com tecnologias menos maduras.
 
 ---
 
-# 🟦 3. **Java tem melhor integração com infraestrutura crítica**
+## 🟦 3. **Java tem melhor integração com infraestrutura crítica**
 
 Sistemas financeiros lidam com:
 
@@ -411,7 +411,7 @@ Java é **altamente previsível**.
 
 ---
 
-# 🟦 4. **Virtual Threads (Java 21–25) deixou Java MUITO mais escalável que Kotlin**
+## 🟦 4. **Virtual Threads (Java 21–25) deixou Java MUITO mais escalável que Kotlin**
 
 Kotlin usa **coroutines**, que são boas, mas:
 
@@ -434,7 +434,7 @@ Sistemas de pagamentos com alto volume (ex: conciliadores, workers de liquidaç�
 
 ---
 
-# 🟦 5. **FFM API** (Java 22–25)
+## 🟦 5. **FFM API** (Java 22–25)
 
 Java consegue agora:
 
@@ -458,7 +458,7 @@ Java > Kotlin.
 
 ---
 
-# 🟦 6. **Confiabilidade e maturidade**
+## 🟦 6. **Confiabilidade e maturidade**
 
 O setor financeiro é conservador por motivos:
 
@@ -481,7 +481,7 @@ Kotlin, mesmo excelente, **não foi testado nesse nível global** ainda.
 
 ---
 
-# 🟦 7. **Maior disponibilidade de devs com experiência real**
+## 🟦 7. **Maior disponibilidade de devs com experiência real**
 
 Pagamentos e bancos precisam de engenheiros que entendem:
 
@@ -499,7 +499,7 @@ Equipes de risco, crédito e pagamentos **são muito mais fortes em Java**.
 
 ---
 
-# 🟦 8. **Ecossistema Java é gigantesco e totalmente otimizado para finanças**
+## 🟦 8. **Ecossistema Java é gigantesco e totalmente otimizado para finanças**
 
 Exemplos reais usados em fintechs:
 
@@ -526,7 +526,7 @@ Kotlin funciona em cima disso, mas nem sempre com **integração perfeita**, pri
 
 ---
 
-# 🟦 9. **Compliance e auditoria inesperadas**
+## 🟦 9. **Compliance e auditoria inesperadas**
 
 Alguns bancos e adquirentes simplesmente dizem:
 
@@ -536,7 +536,7 @@ E isso acontece MUITO.
 
 ---
 
-# 🟦 10. **Kotlin é excelente — mas para outro tipo de uso**
+## 🟦 10. **Kotlin é excelente — mas para outro tipo de uso**
 
 Kotlin funciona **muito bem** para:
 
