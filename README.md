@@ -1,4 +1,4 @@
-# 📘 **POC Completa Java 25 (Didático e Profissional)**
+# 📘 **POC Completa Java 25**
 
 
 # 🚀 POC — Novidades do Java 25  
