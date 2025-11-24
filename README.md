@@ -5,7 +5,8 @@ Ele inclui:
 - ✨ Novidades do Java 25 explicadas de forma simples  
 - 🔧 Código real da POC  
 - 🧠 Glossário técnico para iniciantes  
-- 🤝 Comparação Java vs Kotlin  
+- 🤝 Comparação Java vs Kotlin
+- 🚀 Novidades no Spring Boot 4.0
 ---
 
 # 🧱 1. Estrutura da POC
@@ -905,4 +906,170 @@ Use quando você precisa de:
 * interoperar com sistemas antigos em C
 
 ---
+---
 
+# 📘 **Spring Boot 4.0 — Novidades e Impacto Real no Desenvolvimento Java**
+
+# 🚀 Spring Boot 4.0 — A Maior Evolução Desde o Spring Boot 2  
+O Spring Boot 4.0 chegou trazendo mudanças profundas em desempenho, modularização, observabilidade e integração com o Java moderno.  
+Esta seção resume os principais avanços e o que eles significam para arquiteturas modernas, microsserviços e aplicações corporativas.
+
+---
+
+# ⭐ 1. Modularização Completa da Autoconfiguração
+
+O antigo “JAR gigante” do Spring Boot 3.x foi substituído por **autoconfiguração totalmente modular**.
+
+### Benefícios:
+- ⚡ Inicialização muito mais rápida  
+- 📦 Menor consumo de memória  
+- 🎯 Carregamento apenas dos módulos usados  
+- 🧹 IDE mais leve e organizada  
+
+Perfeito para:
+- Microsserviços  
+- Containers  
+- Function-as-a-Service  
+- Ambientes serverless  
+
+---
+
+# ⭐ 2. Null-Safety Real com JSpecify
+
+O Spring Boot 4 adota oficialmente as anotações:
+- `@NonNull`
+- `@Nullable`
+
+Com base no **JSpecify**, o padrão moderno de null-safety da JVM.
+
+### Benefícios:
+- ✔ Menos NullPointerException  
+- ✔ Análise estática de código mais forte  
+- ✔ Interoperabilidade ideal com Kotlin  
+- ✔ Contratos de API mais claros  
+
+Isso leva a **código mais seguro, robusto e fácil de manter**.
+
+---
+
+# ⭐ 3. Suporte Total ao Java 25 (e compatibilidade com 17)
+
+O Boot 4 abraça completamente os recursos do Java 25:
+
+- ⚡ Garbage Collector mais rápido  
+- ⚡ Virtual Threads mais eficientes  
+- ⚡ Pattern Matching aprimorado  
+- ⚡ Melhor desempenho em servidores e containers  
+
+Ainda funciona no Java 17, mas **o Java 25 libera todo potencial**.
+
+---
+
+# ⭐ 4. Versionamento de API Nativo
+
+Adeus gambiarras, filtros gigantes ou bibliotecas externas.  
+Agora o Spring Boot 4 tem **versionamento de API embutido**, suportando:
+
+- `/v1` — versão por caminho  
+- Headers versionados  
+- Query parameters  
+
+Perfeito para:
+- APIs corporativas  
+- Contratos de longo prazo  
+- Integrações entre times  
+
+---
+
+# ⭐ 5. Clientes HTTP Baseados em Interface
+
+Agora você pode criar **clientes HTTP declarativos**, similar a Feign — mas nativo do Spring.
+
+Exemplo:
+```java
+@HttpExchange("/users")
+interface UserClient {
+    @GetExchange("/{id}")
+    User findById(Long id);
+}
+````
+
+### Benefícios:
+
+* Zero boilerplate
+* Melhor integração com WebClient e MVC
+* Código muito mais limpo e resiliente
+
+---
+
+# ⭐ 6. Alinhamento com Jakarta EE 11
+
+O Spring Boot 4 atualiza todo seu ecossistema para os padrões mais modernos:
+
+* Servlet 6.1
+* JPA 3.2
+* Hibernate 7.x
+* WebSocket 2.2
+
+Garantindo:
+
+* 📌 longevidade arquitetural
+* 📌 compatibilidade futura
+* 📌 melhor desempenho
+
+---
+
+# ⭐ 7. Observabilidade de Primeira Classe com OpenTelemetry
+
+O Spring Boot 4 introduz o novo starter:
+
+```
+spring-boot-starter-opentelemetry
+```
+
+Traz suporte nativo a:
+
+* 📈 Tracing
+* 📊 Métricas
+* 📝 Logs estruturados
+
+Com exportação padrão para OTel, evitando vendor lock-in.
+
+Sem configurações manuais complexas
+Sem dependências externas confusas
+
+---
+
+# ⭐ 8. Imagem Nativa e AOT Melhorado
+
+O Boot 4 continua focado em **alto desempenho e eficiência na nuvem**, com:
+
+* ⚡ Imagens mais leves
+* ⚡ Início mais rápido
+* ⚡ AOT mais inteligente
+* ⚡ Suporte aprimorado ao GraalVM
+
+Perfeito para:
+
+* Serverless
+* Cloud Native
+* Buildpacks
+* Deploys otimizados
+
+---
+
+# 🎯 O Que Isso Significa para Você
+
+O Spring Boot 4 entrega:
+
+* 🔥 Inicialização mais rápida
+* 🔥 Menor uso de memória
+* 🔒 Null-safety mais forte
+* 🌩️ Melhor desempenho com Java 25
+* ☁️ Prontidão total para microsserviços e nuvem
+* 🚀 Clientes HTTP mais simples
+* 🧭 Arquitetura moderna e futura
+
+Uma evolução que moderniza completamente o desenvolvimento Java.
+
+---
